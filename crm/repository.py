@@ -1,6 +1,6 @@
 import json
-
 from pathlib import Path
+
 from crm.models import Policy
 
 DATA_FILE = Path(__file__).parent / "data" / "policies.json"
