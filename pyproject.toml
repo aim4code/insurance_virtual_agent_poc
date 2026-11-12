@@ -12,3 +12,18 @@ dev = [
     "pytest>=9.2.0",
     "ruff>=0.17.4",
 ]
+
+[tool.ruff]
+line-length = 88
+target-version = "py312"
+
+[tool.ruff.lint]
+select = [
+    "E", "W",  # pycodestyle: PEP 8 errors and warnings
+    "F",       # pyflakes: unused imports, undefined names
+    "I",       # isort: import order
+    "B",       # flake8-bugbear: likely bugs
+    "UP",      # pyupgrade: use modern Python 3.12 syntax
+    "SIM",     # flake8-simplify: simpler equivalent code
+    "RUF",     # ruff's own rules
+]
