@@ -1,0 +1,401 @@
+{
+  "_note": "All records are fictional and synthetic. Phone numbers use a reserved test range; emails use example.com.",
+  "policies": [
+    {
+      "policy_number": "POL-H-100001",
+      "product": "hogar",
+      "plan": "Hogar Completo",
+      "status": "activa",
+      "holder_name": "Lucía Fernández Ortega",
+      "date_of_birth": "1985-03-14",
+      "phone": "+34 600 000 101",
+      "email": "lucia.fernandez@example.com",
+      "renewal_date": "2027-02-01",
+      "deductible_eur": 0,
+      "coverages": [
+        "incendio",
+        "daños_por_agua",
+        "responsabilidad_civil",
+        "robo",
+        "cristales",
+        "fenómenos_atmosféricos",
+        "daños_eléctricos",
+        "asistencia_hogar"
+      ]
+    },
+    {
+      "policy_number": "POL-H-100002",
+      "product": "hogar",
+      "plan": "Hogar Básico",
+      "status": "activa",
+      "holder_name": "Javier Morales Ruiz",
+      "date_of_birth": "1972-11-02",
+      "phone": "+34 600 000 102",
+      "email": "javier.morales@example.com",
+      "renewal_date": "2027-05-15",
+      "deductible_eur": 0,
+      "coverages": [
+        "incendio",
+        "daños_por_agua",
+        "responsabilidad_civil",
+        "robo"
+      ]
+    },
+    {
+      "policy_number": "POL-H-100003",
+      "product": "hogar",
+      "plan": "Hogar Completo",
+      "status": "suspendida_impago",
+      "holder_name": "Carmen Navarro Gil",
+      "date_of_birth": "1990-07-21",
+      "phone": "+34 600 000 103",
+      "email": "carmen.navarro@example.com",
+      "renewal_date": "2026-12-01",
+      "deductible_eur": 0,
+      "coverages": [
+        "incendio",
+        "daños_por_agua",
+        "responsabilidad_civil",
+        "robo",
+        "cristales",
+        "fenómenos_atmosféricos",
+        "daños_eléctricos",
+        "asistencia_hogar"
+      ]
+    },
+    {
+      "policy_number": "POL-H-100004",
+      "product": "hogar",
+      "plan": "Hogar Alquiler",
+      "status": "activa",
+      "holder_name": "Pablo Romero Vidal",
+      "date_of_birth": "1995-01-30",
+      "phone": "+34 600 000 104",
+      "email": "pablo.romero@example.com",
+      "renewal_date": "2027-03-10",
+      "deductible_eur": 0,
+      "coverages": [
+        "responsabilidad_civil",
+        "robo",
+        "daños_por_agua",
+        "asistencia_hogar"
+      ]
+    },
+    {
+      "policy_number": "POL-H-100005",
+      "product": "hogar",
+      "plan": "Hogar Básico",
+      "status": "cancelada",
+      "holder_name": "Elena Castro Molina",
+      "date_of_birth": "1968-09-09",
+      "phone": "+34 600 000 105",
+      "email": "elena.castro@example.com",
+      "renewal_date": null,
+      "deductible_eur": 0,
+      "coverages": [
+        "incendio",
+        "daños_por_agua",
+        "responsabilidad_civil",
+        "robo"
+      ]
+    },
+    {
+      "policy_number": "POL-H-100006",
+      "product": "hogar",
+      "plan": "Hogar Completo",
+      "status": "pendiente_renovacion",
+      "holder_name": "Andrés Herrera Prieto",
+      "date_of_birth": "1980-04-18",
+      "phone": "+34 600 000 106",
+      "email": "andres.herrera@example.com",
+      "renewal_date": "2026-11-30",
+      "deductible_eur": 0,
+      "coverages": [
+        "incendio",
+        "daños_por_agua",
+        "responsabilidad_civil",
+        "robo",
+        "cristales",
+        "fenómenos_atmosféricos",
+        "daños_eléctricos",
+        "asistencia_hogar"
+      ]
+    },
+    {
+      "policy_number": "POL-H-100007",
+      "product": "hogar",
+      "plan": "Hogar Segunda Vivienda",
+      "status": "activa",
+      "holder_name": "Marta Ibáñez Soler",
+      "date_of_birth": "1977-12-25",
+      "phone": "+34 600 000 107",
+      "email": "marta.ibanez@example.com",
+      "renewal_date": "2027-06-20",
+      "deductible_eur": 0,
+      "coverages": [
+        "incendio",
+        "daños_por_agua",
+        "responsabilidad_civil",
+        "robo",
+        "fenómenos_atmosféricos"
+      ]
+    },
+    {
+      "policy_number": "POL-H-100008",
+      "product": "hogar",
+      "plan": "Hogar Alquiler",
+      "status": "activa",
+      "holder_name": "Sergio Delgado Pastor",
+      "date_of_birth": "1999-06-06",
+      "phone": "+34 600 000 108",
+      "email": "sergio.delgado@example.com",
+      "renewal_date": "2027-01-05",
+      "deductible_eur": 0,
+      "coverages": [
+        "responsabilidad_civil",
+        "robo",
+        "daños_por_agua",
+        "asistencia_hogar"
+      ]
+    },
+    {
+      "policy_number": "POL-H-100009",
+      "product": "hogar",
+      "plan": "Hogar Completo",
+      "status": "activa",
+      "holder_name": "Rosa Méndez Cano",
+      "date_of_birth": "1958-02-11",
+      "phone": "+34 600 000 109",
+      "email": "rosa.mendez@example.com",
+      "renewal_date": "2027-04-01",
+      "deductible_eur": 0,
+      "coverages": [
+        "incendio",
+        "daños_por_agua",
+        "responsabilidad_civil",
+        "robo",
+        "cristales",
+        "fenómenos_atmosféricos",
+        "daños_eléctricos",
+        "asistencia_hogar"
+      ]
+    },
+    {
+      "policy_number": "POL-H-100010",
+      "product": "hogar",
+      "plan": "Hogar Básico",
+      "status": "suspendida_impago",
+      "holder_name": "Diego Vargas León",
+      "date_of_birth": "1988-10-27",
+      "phone": "+34 600 000 110",
+      "email": "diego.vargas@example.com",
+      "renewal_date": "2027-02-28",
+      "deductible_eur": 0,
+      "coverages": [
+        "incendio",
+        "daños_por_agua",
+        "responsabilidad_civil",
+        "robo"
+      ]
+    },
+    {
+      "policy_number": "POL-A-200001",
+      "product": "auto",
+      "plan": "Auto Terceros",
+      "status": "activa",
+      "holder_name": "Laura Gómez Serrano",
+      "date_of_birth": "1992-05-03",
+      "phone": "+34 600 000 201",
+      "email": "laura.gomez@example.com",
+      "renewal_date": "2027-03-01",
+      "deductible_eur": 0,
+      "coverages": [
+        "responsabilidad_civil_obligatoria",
+        "defensa_jurídica",
+        "asistencia_carretera"
+      ]
+    },
+    {
+      "policy_number": "POL-A-200002",
+      "product": "auto",
+      "plan": "Auto Terceros Ampliado",
+      "status": "activa",
+      "holder_name": "Miguel Torres Blanco",
+      "date_of_birth": "1983-08-19",
+      "phone": "+34 600 000 202",
+      "email": "miguel.torres@example.com",
+      "renewal_date": "2027-07-12",
+      "deductible_eur": 0,
+      "coverages": [
+        "responsabilidad_civil_obligatoria",
+        "defensa_jurídica",
+        "asistencia_carretera",
+        "lunas",
+        "robo",
+        "incendio"
+      ]
+    },
+    {
+      "policy_number": "POL-A-200003",
+      "product": "auto",
+      "plan": "Auto Todo Riesgo con Franquicia",
+      "status": "activa",
+      "holder_name": "Isabel Ramos Fuentes",
+      "date_of_birth": "1975-01-07",
+      "phone": "+34 600 000 203",
+      "email": "isabel.ramos@example.com",
+      "renewal_date": "2027-01-20",
+      "deductible_eur": 300,
+      "coverages": [
+        "responsabilidad_civil_obligatoria",
+        "defensa_jurídica",
+        "asistencia_carretera",
+        "lunas",
+        "robo",
+        "incendio",
+        "daños_propios",
+        "vehículo_sustitución"
+      ]
+    },
+    {
+      "policy_number": "POL-A-200004",
+      "product": "auto",
+      "plan": "Auto Todo Riesgo",
+      "status": "pendiente_renovacion",
+      "holder_name": "Raúl Jiménez Arias",
+      "date_of_birth": "1987-03-29",
+      "phone": "+34 600 000 204",
+      "email": "raul.jimenez@example.com",
+      "renewal_date": "2026-12-05",
+      "deductible_eur": 0,
+      "coverages": [
+        "responsabilidad_civil_obligatoria",
+        "defensa_jurídica",
+        "asistencia_carretera",
+        "lunas",
+        "robo",
+        "incendio",
+        "daños_propios",
+        "vehículo_sustitución"
+      ]
+    },
+    {
+      "policy_number": "POL-A-200005",
+      "product": "auto",
+      "plan": "Auto Terceros",
+      "status": "cancelada",
+      "holder_name": "Nuria Ortiz Campos",
+      "date_of_birth": "1964-10-15",
+      "phone": "+34 600 000 205",
+      "email": "nuria.ortiz@example.com",
+      "renewal_date": null,
+      "deductible_eur": 0,
+      "coverages": [
+        "responsabilidad_civil_obligatoria",
+        "defensa_jurídica",
+        "asistencia_carretera"
+      ]
+    },
+    {
+      "policy_number": "POL-A-200006",
+      "product": "auto",
+      "plan": "Auto Terceros Ampliado",
+      "status": "suspendida_impago",
+      "holder_name": "Óscar Medina Rubio",
+      "date_of_birth": "1997-09-01",
+      "phone": "+34 600 000 206",
+      "email": "oscar.medina@example.com",
+      "renewal_date": "2027-02-14",
+      "deductible_eur": 0,
+      "coverages": [
+        "responsabilidad_civil_obligatoria",
+        "defensa_jurídica",
+        "asistencia_carretera",
+        "lunas",
+        "robo",
+        "incendio"
+      ]
+    },
+    {
+      "policy_number": "POL-A-200007",
+      "product": "auto",
+      "plan": "Auto Todo Riesgo con Franquicia",
+      "status": "activa",
+      "holder_name": "Patricia Santos Lozano",
+      "date_of_birth": "1981-11-23",
+      "phone": "+34 600 000 207",
+      "email": "patricia.santos@example.com",
+      "renewal_date": "2027-05-30",
+      "deductible_eur": 300,
+      "coverages": [
+        "responsabilidad_civil_obligatoria",
+        "defensa_jurídica",
+        "asistencia_carretera",
+        "lunas",
+        "robo",
+        "incendio",
+        "daños_propios",
+        "vehículo_sustitución"
+      ]
+    },
+    {
+      "policy_number": "POL-A-200008",
+      "product": "auto",
+      "plan": "Auto Terceros",
+      "status": "activa",
+      "holder_name": "Alberto Núñez Marín",
+      "date_of_birth": "2001-04-12",
+      "phone": "+34 600 000 208",
+      "email": "alberto.nunez@example.com",
+      "renewal_date": "2027-08-08",
+      "deductible_eur": 0,
+      "coverages": [
+        "responsabilidad_civil_obligatoria",
+        "defensa_jurídica",
+        "asistencia_carretera"
+      ]
+    },
+    {
+      "policy_number": "POL-A-200009",
+      "product": "auto",
+      "plan": "Auto Todo Riesgo",
+      "status": "activa",
+      "holder_name": "Cristina Peña Domínguez",
+      "date_of_birth": "1970-06-17",
+      "phone": "+34 600 000 209",
+      "email": "cristina.pena@example.com",
+      "renewal_date": "2027-03-22",
+      "deductible_eur": 0,
+      "coverages": [
+        "responsabilidad_civil_obligatoria",
+        "defensa_jurídica",
+        "asistencia_carretera",
+        "lunas",
+        "robo",
+        "incendio",
+        "daños_propios",
+        "vehículo_sustitución"
+      ]
+    },
+    {
+      "policy_number": "POL-A-200010",
+      "product": "auto",
+      "plan": "Auto Terceros Ampliado",
+      "status": "activa",
+      "holder_name": "Fernando Gil Bravo",
+      "date_of_birth": "1993-12-31",
+      "phone": "+34 600 000 210",
+      "email": "fernando.gil@example.com",
+      "renewal_date": "2027-09-01",
+      "deductible_eur": 0,
+      "coverages": [
+        "responsabilidad_civil_obligatoria",
+        "defensa_jurídica",
+        "asistencia_carretera",
+        "lunas",
+        "robo",
+        "incendio"
+      ]
+    }
+  ]
+}
