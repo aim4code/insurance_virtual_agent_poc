@@ -1,7 +1,7 @@
 import pytest
 
 from agent.kb import Article
-from agent.retrieval import TfidfIndex, strip_accents, tokenize
+from agent.retrieval import TfidfIndex, light_stem, strip_accents, tokenize
 
 ARTICLES = [
     Article(
@@ -47,3 +47,15 @@ def test_search_sorts_by_score_and_respects_k() -> None:
 
 def test_search_returns_nothing_without_shared_words() -> None:
     assert TfidfIndex(ARTICLES).search("¿Aseguráis mascotas?") == []
+
+
+@pytest.mark.parametrize(
+    ("singular", "plural"),
+    [("luna", "lunas"), ("cristal", "cristales"), ("coche", "coches")],
+)
+def test_light_stem_matches_singular_and_plural(singular: str, plural: str) -> None:
+    assert light_stem(singular) == light_stem(plural)
+
+
+def test_light_stem_keeps_short_words() -> None:
+    assert light_stem("gas") == "gas"

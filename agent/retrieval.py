@@ -56,6 +56,20 @@ def tokenize(text: str) -> list[str]:
     return [word for word in words if word not in STOPWORDS]
 
 
+def light_stem(word: str) -> str:
+    """Drop a final -s and the a final -e, so singular and plural forms match."""
+    if len(word) > 3 and word.endswith("s"):
+        word = word[:-1]
+    if len(word) > 3 and word.endswith("e"):
+        word = word[:-1]
+    return word
+
+
+def terms(text: str) -> list[str]:
+    """The tokens of a text, reduced to their light stem."""
+    return [light_stem(token) for token in tokenize(text)]
+
+
 Vector = dict[str, float]
 
 
@@ -82,7 +96,7 @@ def dot(a: Vector, b: Vector) -> float:
 class TfidfIndex:
     def __init__(self, articles: list[Article]) -> None:
         self.articles = articles
-        counts = [Counter(tokenize(f"{a.title} {a.body}")) for a in articles]
+        counts = [Counter(terms(f"{a.title} {a.body}")) for a in articles]
         doc_freq = Counter(term for doc in counts for term in doc)
         self.idf = {term: math.log(len(articles) / n) for term, n in doc_freq.items()}
         self.vectors = [self._vectorize(doc) for doc in counts]
@@ -92,7 +106,7 @@ class TfidfIndex:
         return unit_length(weights)
 
     def search(self, query: str, k: int = 3) -> list[SearchResult]:
-        query_vector = self._vectorize(Counter(tokenize(query)))
+        query_vector = self._vectorize(Counter(terms(query)))
         results = [
             SearchResult(article, dot(query_vector, vector))
             for article, vector in zip(self.articles, self.vectors, strict=True)
