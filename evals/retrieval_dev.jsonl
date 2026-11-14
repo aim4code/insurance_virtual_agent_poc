@@ -1,0 +1,30 @@
+{"query": "Se me ha quemado el coche entero por un cortocircuito en el motor, ¿qué me pagais?", "expected": ["auto-incendio"]}
+{"query": "Hace tres semanas di parte del accidente y nadie me dice nada, ¿cómo va lo mío?", "expected": ["general-seguimiento-siniestro"]}
+{"query": "Esta mañana el coche no estaba donde lo aparqué, creo que me lo han quitado. ¿Qué hace el seguro?", "expected": ["auto-robo"]}
+{"query": "Mi hijo cogió el coche después de unas cervezas y tuvo un accidente, ¿le cubrís?", "expected": ["auto-exclusiones"]}
+{"query": "Cuantas personas cubre mi seguro de coche?", "expected": ["auto-conductores"]}
+{"query": "Con el temporal de anoche se me ha volado el toldo de la terraza", "expected": ["hogar-fenomenos-atmosfericos"]}
+{"query": "Se me prendió fuego la sartén y se ha chamuscado media cocina, ¿qué me cubre?", "expected": ["hogar-incendio"]}
+{"query": "¿Hasta qué hora puedo hablar con una persona? Hoy salgo tarde del curro", "expected": ["general-horario-contacto"]}
+{"query": "Se han ido varias veces los plomos de la casa y ahora el frigorifico no enciende. Eso me lo cubre el seguro?", "expected": ["hogar-danos-electricos"]}
+{"query": "¿Qué diferencia hay entre el de terceros y el de terceros ampliado?", "expected": ["auto-planes"]}
+{"query": "Tengo el todo riesgo de los 300 euros, si arreglar el golpe sale por 250 ¿me lo pagáis?", "expected": ["auto-franquicia"]}
+{"query": "Para el seguro, ¿la cocina montada cuenta como mueble o como parte del piso?", "expected": ["hogar-continente-contenido"]}
+{"query": "¿Qué seguro de casa me cubre también si se rompe una ventana o salta la luz y se estropea la nevera?", "expected": ["hogar-planes"]}
+{"query": "Vivo de alquiler en un piso, ¿me interesa asegurar mis cosas aunque el casero tenga su seguro?", "expected": ["hogar-alquiler"]}
+{"query": "En verano bajamos en coche a Marruecos, ¿tengo que hacer algo con el seguro?", "expected": ["auto-extranjero"]}
+{"query": "Me he quedado tirado en la A-6, el coche no arranca. ¿Me mandais a alguien para llevarlo al taller?", "expected": ["auto-asistencia-carretera"]}
+{"query": "Tenemos una casa en el pueblo que solo usamos en agosto, ¿la podemos asegurar con vosotros?", "expected": ["hogar-segunda-vivienda"]}
+{"query": "Estamos de obras en el baño y los albañiles han reventado una tubería, ¿me lo cubrís?", "expected": ["hogar-exclusiones", "hogar-danos-por-agua"]}
+{"query": "Me he retrasado en el ultimo pago de recibo, hay algun problema?", "expected": ["general-impago", "general-pago-recibos"]}
+{"query": "Se me ha rajado el parabrisas con una piedra, ¿me lo pagáis?", "expected": ["auto-lunas"]}
+{"query": "Mi hijo le ha dado un balonazo al coche del vecino y le ha roto el retrovisor, ¿lo paga mi seguro de casa?", "expected": ["hogar-responsabilidad-civil"]}
+{"query": "Quiero que borreis todos mis datos personales de vuestro sistema", "expected": ["general-proteccion-datos"]}
+{"query": "Quiero poner una queja porque no recibo nunca atencion", "expected": ["general-reclamaciones"]}
+{"query": "Me han salido unas humedades en el baño, me lo cubre el seguro?", "expected": ["hogar-danos-por-agua"]}
+{"query": "Me han pegado un chinazo en la luna del coche, ¿me lo cubre el seguro?", "expected": ["auto-lunas"]}
+{"query": "Acabo de entrar en mi casa y me han robado la tele y varias cosas, que tengo que hacer?", "expected": ["general-dar-parte", "hogar-robo"]}
+{"query": "Acabo de arrollar a un peaton por accidente en un paso de cebra donde no le he visto entrar, dice que va a denunciarme, esto me lo cubre el seguro?", "expected": ["auto-defensa-juridica", "auto-responsabilidad-civil-obligatoria"]}
+{"query": "Nos hemos dado un golpe flojo y el otro conductor me da un papel para rellenar entre los dos, ¿cómo lo hago bien?", "expected": ["auto-declaracion-amistosa"]}
+{"query": "¿Qué pasa si no pago el recibo?", "expected": ["general-impago", "general-pago-recibos"]}
+{"query": "Se está callendo la pintura del techo de la cocina, me lo cubre el seguro?", "expected": ["hogar-danos-por-agua", "hogar-exclusiones"]}
