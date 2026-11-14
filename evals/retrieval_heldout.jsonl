@@ -1,0 +1,10 @@
+{"query": "Se me está rajando el cristal delantero del coche, ¿eso me lo cubre el seguro?", "expected": ["auto-lunas"]}
+{"query": "Me han dado un golpe en el coche mientras lo tenía aparcado. Me lo cubre el seguro?", "expected": ["auto-danos-propios"]}
+{"query": "He tenido un accidente pero no he sido el causante. Que hago?", "expected": ["auto-declaracion-amistosa"]}
+{"query": "¿Cuándo viene alguien a ver cómo ha quedado mi casa y cuánto tardáis en pagarme?", "expected": ["hogar-peritacion"]}
+{"query": "Me he cambiado de banco y quiero que me cobréis en la cuenta nueva", "expected": ["general-cambio-datos"]}
+{"query": "Mientras me arreglan el coche en el taller, ¿me dejáis otro para ir a trabajar?", "expected": ["auto-vehiculo-sustitucion"]}
+{"query": "Me he dejado las llaves dentro y estoy en la calle, ¿me mandáis un cerrajero?", "expected": ["hogar-asistencia"]}
+{"query": "Me habeis subido mucho el precio del seguro, quiero una poliza mas barata o me cambio de aseguradora", "expected": ["general-renovacion", "general-cancelacion"]}
+{"query": "Quiero darme de baja, hay algun tipo de penalizacion?", "expected": ["general-cancelacion"]}
+{"query": "Al niño se le ha caído un juguete sobre la vitro y se ha partido, ¿entra en el seguro de casa?", "expected": ["hogar-cristales"]}
