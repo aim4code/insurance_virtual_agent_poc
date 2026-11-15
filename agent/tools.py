@@ -39,7 +39,7 @@ def make_search_kb(index: TfidfIndex) -> Tool:
     return Tool(
         name="search_kb",
         description=(
-            "Seach the Asseguradora Demo knowledge base. Returns up to 3 articles"
+            "Search the Aseguradora Demo knowledge base. Returns up to 3 articles "
             "with id, title, and full text. Use it before answering any question "
             "about coverage, plans, claims, payments or procedures."
         ),
